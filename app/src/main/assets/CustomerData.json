@@ -1,0 +1,98 @@
+[
+  {
+    "AdditionalName": "24 HOUR SUNNY CAFE",
+    "id": "0001",
+    "CustomerName": "SUNNY CAFE",
+    "LegalName": "SUNNY CAFE LTD.",
+    "PhoneNumber": "+606049667333",
+    "PhoneNumberExtension": "245",
+    "PurchaseOrderRequired": true,
+    "TaxCategory": "01",
+    "EmailAddress": "sunnycafe@gmail.com"
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0002",
+    "CustomerName": "J & J CONVENIENCE STORE",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PhoneNumber": "+606049698899",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0003",
+    "CustomerName": "GUO BAR & GRILL",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PhoneNumber": "+606049661693",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0004",
+    "CustomerName": "TEO RESTAURANT",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false,
+    "SuppressionReasonId": "I"
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0005",
+    "CustomerName": "PERNIAGAAN JING LI",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0006",
+    "CustomerName": "ROYAL L'KAWI YACHT CLUB",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0007",
+    "CustomerName": "KAK YAH (CONDO)",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0008",
+    "CustomerName": "PASARAYA BESAR SAKAN S/B",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PhoneNumber": "+6060135927512",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0009",
+    "CustomerName": "CAPPUCCINO HOUSE",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false
+  },
+  {
+    "CompanyCodeId": "1371",
+    "SubRoute": "Sub-route 1",
+    "id": "0010",
+    "CustomerName": "SOON TRADING",
+    "DeliveryDelay": 48,
+    "Currency": "MYR",
+    "PurchaseOrderRequired": false
+  }
+]

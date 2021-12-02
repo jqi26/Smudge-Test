@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Customer List App</string>
+    <string name="none">None</string>
+    <string name="additional_name"><b>Additional Name:</b> %s</string>
+    <string name="id"><b>ID:</b> %s</string>
+    <string name="customer_name"><b>Customer Name:</b> %s</string>
+    <string name="legal_name"><b>Legal Name:</b> %s</string>
+    <string name="phone_number"><b>Phone Number:</b> %s</string>
+    <string name="phone_number_extension"><b>Phone Number Extension:</b> %s</string>
+    <string name="purchase_order_required"><b>Purchase Order Required:</b> %s</string>
+    <string name="tax_category"><b>Tax Category:</b> %s</string>
+    <string name="email_address"><b>Email Address:</b> %s</string>
+    <string name="company_code_id"><b>Company Code ID:</b> %s</string>
+    <string name="sub_route"><b>Sub Route:</b> %s</string>
+    <string name="delivery_delay"><b>Delivery Delay:</b> %s</string>
+    <string name="currency"><b>Currency:</b> %s</string>
+</resources>
