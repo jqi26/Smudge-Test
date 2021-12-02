@@ -17,7 +17,8 @@ import java.io.IOException
 class CustomerViewModel(application: Application): AndroidViewModel(application) {
     // Use Moshi to parse the JSON file and set _customers to it.
     private val moshi: Moshi = Moshi.Builder().build()
-    private val customersJSON = application.assets.open("CustomerData.json").bufferedReader().use { it.readText() }
+    private val customersJSON = application.assets.open("CustomerData.json")
+        .bufferedReader().use { it.readText() }
     val listType = Types.newParameterizedType(List::class.java, Customer::class.java)
     val adapter: JsonAdapter<MutableList<Customer>> = moshi.adapter(listType)
     val _customers = MutableLiveData<MutableList<Customer>>(adapter.fromJson(customersJSON))

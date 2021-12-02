@@ -37,19 +37,31 @@ class CustomerFragment : Fragment() {
 
         customer = viewModel.currentCustomer!!
 
-        setOrDefault(view.findViewById(R.id.customerNameTextView), customer.customerName, R.string.customer_name)
+        setOrDefault(view.findViewById(R.id.customerNameTextView),
+            customer.customerName, R.string.customer_name)
         setOrDefault(view.findViewById(R.id.idTextView), customer.id, R.string.id)
-        setOrDefault(view.findViewById(R.id.additionalNameTextView), customer.additionalName, R.string.additional_name)
-        setOrDefault(view.findViewById(R.id.legalNameTextView), customer.legalName, R.string.legal_name)
-        setOrDefault(view.findViewById(R.id.phoneNumberTextView), customer.phoneNumber, R.string.phone_number)
-        setOrDefault(view.findViewById(R.id.phoneNumberExtensionTextView), customer.phoneNumberExtension, R.string.phone_number_extension)
-        setOrDefault(view.findViewById(R.id.purchaseOrderRequiredTextView), customer.purchaseOrderRequired.toString(), R.string.purchase_order_required)
-        setOrDefault(view.findViewById(R.id.taxCategoryTextView), customer.taxCategory, R.string.tax_category)
-        setOrDefault(view.findViewById(R.id.emailAddressTextView), customer.emailAddress, R.string.email_address)
-        setOrDefault(view.findViewById(R.id.companyCodeIdTextView), customer.companyCodeId, R.string.company_code_id)
-        setOrDefault(view.findViewById(R.id.subRouteTextView), customer.subRoute, R.string.sub_route)
-        setOrDefault(view.findViewById(R.id.deliveryDelayTextView), customer.deliveryDelay, R.string.delivery_delay)
-        setOrDefault(view.findViewById(R.id.currencyTextView), customer.currency, R.string.currency)
+        setOrDefault(view.findViewById(R.id.additionalNameTextView),
+            customer.additionalName, R.string.additional_name)
+        setOrDefault(view.findViewById(R.id.legalNameTextView),
+            customer.legalName, R.string.legal_name)
+        setOrDefault(view.findViewById(R.id.phoneNumberTextView),
+            customer.phoneNumber, R.string.phone_number)
+        setOrDefault(view.findViewById(R.id.phoneNumberExtensionTextView),
+            customer.phoneNumberExtension, R.string.phone_number_extension)
+        setOrDefault(view.findViewById(R.id.purchaseOrderRequiredTextView),
+            customer.purchaseOrderRequired.toString(), R.string.purchase_order_required)
+        setOrDefault(view.findViewById(R.id.taxCategoryTextView),
+            customer.taxCategory, R.string.tax_category)
+        setOrDefault(view.findViewById(R.id.emailAddressTextView),
+            customer.emailAddress, R.string.email_address)
+        setOrDefault(view.findViewById(R.id.companyCodeIdTextView),
+            customer.companyCodeId, R.string.company_code_id)
+        setOrDefault(view.findViewById(R.id.subRouteTextView),
+            customer.subRoute, R.string.sub_route)
+        setOrDefault(view.findViewById(R.id.deliveryDelayTextView),
+            customer.deliveryDelay, R.string.delivery_delay)
+        setOrDefault(view.findViewById(R.id.currencyTextView),
+            customer.currency, R.string.currency)
     }
 
     /**

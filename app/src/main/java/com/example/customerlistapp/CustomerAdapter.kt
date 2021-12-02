@@ -9,22 +9,24 @@ import androidx.recyclerview.widget.RecyclerView
 /**
  * Adapter for the Customer Recycler View.
  */
-class CustomerAdapter(private var customers: List<Customer>, private val onCustomerHandler: OnCustomerHandler) :
+class CustomerAdapter(private var customers: List<Customer>,
+                      private val onCustomerHandler: OnCustomerHandler) :
     RecyclerView.Adapter<CustomerAdapter.ViewHolder>() {
 
     /**
      * ViewHolder for a single Customer.
      */
-    class ViewHolder(view: View, val onCustomerHandler: OnCustomerHandler) : RecyclerView.ViewHolder(view), View.OnClickListener {
-        val customerItemNameTextView: TextView
+    class ViewHolder(view: View, val onCustomerHandler: OnCustomerHandler) :
+        RecyclerView.ViewHolder(view), View.OnClickListener {
+        val customerItemNameTextView: TextView = view.findViewById(R.id.customerItemNameTextView)
 
         init {
-            customerItemNameTextView = view.findViewById(R.id.customerItemNameTextView)
             view.setOnClickListener(this)
         }
 
         /**
-         * Handler for when a customer is clicked. Calls the function implemented by onCustomerHandler
+         * Handler for when a customer is clicked. Calls the function implemented by
+         * onCustomerHandler
          */
         override fun onClick(p0: View?) {
             onCustomerHandler.onCustomerClick(adapterPosition)
